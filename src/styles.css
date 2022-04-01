@@ -1,0 +1,22 @@
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-position: right 41vw bottom 45vh, 36vw 45vh;
+  background-repeat: no-repeat, no-repeat;
+  font-size: 1.6rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-position: right 49.5vw bottom 45vh, 51vw 47.5vh;
+  }
+}
