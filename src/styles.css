@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  background-image: url(/images/bg-pattern-top.svg),
-    url(/images/bg-pattern-bottom.svg);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
   background-position: right 41vw bottom 45vh, 36vw 45vh;
   background-repeat: no-repeat, no-repeat;
   font-size: 1.6rem;
